@@ -33,3 +33,13 @@ $("h1").append("<button>Button</button>");
 
 
 //$("button").remove();                     //removing element 
+
+$("button").on("click",function(){       
+   // $("h1").hide();                         //hides H1
+   //$("h1").toggle();
+  // $("h1").fadein();
+  // $("h1").fadeout();
+    //$("h1").slideUp();
+   // $("h1").slideDown();
+   $("h1").animate({opacity:0.5});          //custom animation
+});

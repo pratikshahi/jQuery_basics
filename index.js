@@ -25,3 +25,11 @@ $(document).keypress(function(){
     console.log(event.key);
     $("h1").text(event.key);
 });
+
+$("h1").before("<button>Button</button>");      //adding element through jquery
+$("h1").after("<button>Button</button>");
+$("h1").prepend("<button>Button</button>");
+$("h1").append("<button>Button</button>");
+
+
+//$("button").remove();                     //removing element 

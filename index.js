@@ -7,3 +7,5 @@
 $("h1").addClass("bigTitle margin");    //keeping styling to css 
 $("h1").text("Bye");                       //Manipulating text with jQuery
 $("button").html("<em>HEY!</em>")
+
+$("a").attr("href","https://yahoo.com");                                            //manipulating attributes

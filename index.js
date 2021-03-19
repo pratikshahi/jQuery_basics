@@ -14,7 +14,7 @@ $("h1").click(function () {
   $("h1").css("color", "red");
 });
 
-$("button").click(function(){           //addeventListner using jquery
+$("button").on("click",function(){           //addeventListner using jquery
     $("h1").css("color","purple");
 });
 
